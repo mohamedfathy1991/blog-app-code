@@ -1,0 +1,117 @@
+.profile{
+      padding: 30px;
+}
+.profile-header{
+      width: 100%;
+      height: 400px;
+      background-color: var(--primary-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+.profile-image-wrapper{
+      width: 120px;
+      height: 120px;
+      
+      position: relative;
+      text-align: center;
+}
+.profile-image{
+      border-radius: 50%;
+      width: 100%;
+      object-fit: cover;
+     
+}
+.user-phpoto{
+      color: white;
+      font-size: 30px;
+}
+.upload-profile-photo-icon,
+.upload-photo-btn{
+      color: var(--primary-color);
+      background-color: #eee;
+      border-radius: 50%;
+      border: 1px solid var(--primary-color);
+      padding: 0 5px;
+      position: absolute;
+      right: -5px;
+      bottom: -5px;
+      margin: auto;
+      width: max-content;
+      font-size: 25px;
+      z-index: 10px;
+}
+.upload-photo-btn{
+      color: var(--primary-color);
+      background-color: #eee;
+      border: 1px solid;
+      border-radius: 5px;
+      padding: 0 5px;
+     
+      cursor: pointer;
+      margin: auto;
+      
+      width: max-content;
+    
+      font-size: 14px;
+      right: -100px;
+}
+.username{
+      font-size: 30px;
+      color: var(--white-color);
+      margin: 10px 0;
+}
+.profile-bio{
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--main-color);
+}
+.user-jouin strong{
+      color: var(--gray-color);
+      font-size: 17px;
+}
+.user-jouin span{
+      color: var(--green-sea-color);
+      font-size: 15px;
+      font-weight: 500;
+}
+.update-profile-btn{
+      font-size: 21px;
+      font-weight: 500;
+      background-color: var(--green-color);
+      color: var(--white-color);
+      border: none;
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+}
+.user-post{
+      width: 880px;
+      margin: 20px auto;
+}
+.user-title{
+      margin-bottom: 20px;
+      padding: 5px 0;
+      font-size: 40px;
+      color: var(--primary-color);
+      border-bottom: 2px solid;
+}
+.delet-profile{
+      background-color: var(--white-color);
+      color: var(--red-color);
+      padding: 5px;
+      border: 1px solid var(--red-color);
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+      position: fixed;
+      bottom: 20px;
+      left: 0;
+
+}
+.delet-profile:hover{
+      background-color: rgba(255, 0, 0, 0.76);
+      color: white;
+}

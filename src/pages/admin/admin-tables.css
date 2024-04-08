@@ -1,0 +1,101 @@
+.table-container{
+      display: flex;
+      min-height: calc(100vh - 130px);
+      overflow: hidden;
+}
+.table-wrapper{
+      flex: 10;
+      overflow-y: scroll;
+      padding: 20px;
+}
+.table-title{
+      font-size: 30px;
+      color: var(--secondary-color);
+      margin-bottom: 15px ;
+      border-bottom: 2px solid var(--secondary-color);
+      padding-bottom: 3px;
+      width: max-content;
+}
+
+.table{
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+}
+th,td{
+      border :2px solid;
+      padding: 10px;
+}
+th{
+      background-color: var(--primary-color);
+      color: var(--white-color);
+}
+tr:nth-child(even){
+      background-color: var(--white-color);
+}
+tr:hover{
+      background-color: #ddd;
+}
+
+
+.table-image{
+      display: flex;
+      align-items: center;
+}
+.table-user-image{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+}
+.table-username{
+      font-weight: 500;
+      font-size:17px;
+      margin-left: 5px;
+}
+
+.table-buttom-group{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.table-buttom-group button {
+      border: none;
+      background-color: var(--green-color);
+      color :var(--white-color);
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 17px;
+      font-weight: 500;
+      cursor: pointer;
+}
+.table-buttom-group button:last-child{
+      background-color: var(--red-color);
+}
+.table-buttom-group button:last-child:hover{
+      background-color: red;
+}
+.table-buttom-group button a{
+      color: var(--white-color);
+}
+
+@media (max-width:720px) {
+      .table-wrapper{
+            padding: 5px;
+      }
+      .table-buttom-group{
+            flex-wrap: wrap;
+      }
+      .table-buttom-group button{
+            width: 100%;
+            margin: 10px;
+      }
+
+      
+}
+@media (max-width:520px) {
+      td,th{
+            padding: 2px;
+      }
+      
+}

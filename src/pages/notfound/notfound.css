@@ -1,0 +1,25 @@
+.not-found{
+      min-height: calc(100vh - 130px);
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.not-found-title{
+      font-size: 70px;
+      font-weight: bold;
+      color: var(--red-color);
+}
+.not-found-text{
+      font-size: 30px;
+      margin-bottom: 30px;
+}
+.linlk-not-found{
+      font-size: 21px;
+      display: block;
+      color: white;
+      background-color: var(--secondary-color);
+      border-radius: 5px;
+      padding: 10px;
+}

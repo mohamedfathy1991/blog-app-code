@@ -1,0 +1,12 @@
+.category{
+      width: 70%;
+      margin: auto;
+      padding: 20px;
+
+}
+.title{
+      border-bottom: 1px solid darkgray;
+      margin-bottom: 10px;
+      width: max-content;
+      font-size: 25px ;
+}

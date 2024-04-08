@@ -1,0 +1,23 @@
+.post-page{
+    display: flex;
+    padding: 30px;
+}
+
+@media(max-width:990px){
+
+    .post-page{
+   
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:520px){
+
+    .post-page{
+   
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
